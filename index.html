@@ -1,0 +1,12 @@
+---
+layout: default
+title: dbradf
+---
+<h4>Last Five Posts:</h4>
+<p>
+  <ul>
+    {% for post in site.posts limit:5 %}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+  </ul>
+</p>
