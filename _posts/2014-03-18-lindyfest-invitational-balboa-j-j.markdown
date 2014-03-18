@@ -9,5 +9,5 @@ I was invited to take part in the Invitational Balboa Jack and Jill at Lindyfest
 
 Here is the video:
 
-<iframe width="1280" height="720" src="//www.youtube.com/embed/ETfzS82i65E" frameborder="0" allowfullscreen> 
+<iframe width="853" height="480" src="//www.youtube.com/embed/ETfzS82i65E" frameborder="0" allowfullscreen> 
 </iframe>
