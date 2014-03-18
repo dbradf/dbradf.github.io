@@ -2,7 +2,7 @@
 layout: post
 title: "Getting Jenkins to work with LDAP"
 date: 2013-08-08
-category: tools
+category: technology
 ---
 
 I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for "jenkins ldap slow" demonstrates.

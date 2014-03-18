@@ -2,7 +2,7 @@
 layout: post
 title: "Using git aliases"
 date: 2013-05-09
-category: tools
+category: technology
 ---
 
 Git aliases provide a way to create shortcuts for complex git commands.

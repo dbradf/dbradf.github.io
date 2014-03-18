@@ -2,7 +2,7 @@
 layout: post
 title: "The git staging area"
 date: 2013-05-31
-category: tools
+category: technology
 ---
 
 Git encourages users to think about what they are committing and one of the ways that it does this is with the "staging area."
