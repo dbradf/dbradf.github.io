@@ -1,4 +1,4 @@
 auto: true
 pygments: true
 permalink: /blog/:title
-markdown: redcarpet
+markdown: kramdown
