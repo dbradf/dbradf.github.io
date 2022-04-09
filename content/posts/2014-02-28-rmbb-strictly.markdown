@@ -9,4 +9,4 @@ At Rocky Mountain Balboa Blowout this year, I completed with the amazing Deb Eas
 
 Here is the video:
 
-<iframe width="853" height="480" src="//www.youtube.com/embed/2mO27kVHYA4" frameborder="0" allowfullscreen></iframe>
+[![Rocky Mountain Balboa Blowout](https://img.youtube.com/vi/2mO27kVHYA4/0.jpg)](https://www.youtube.com/watch?v=2mO27kVHYA4)

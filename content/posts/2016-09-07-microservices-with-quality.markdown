@@ -7,5 +7,4 @@ category: technology
 
 Presentation from Austin Microservices Meetup Group about building Microservices with Quality:
 
-<iframe width="853" height="480", src="https://www.youtube.com/embed/QKksQQ09SPw" frameborder="0" allowfullscreen>
-</iframe>
+[![Microservices with Quality](https://img.youtube.com/vi/QKksQQ09SPw/0.jpg)](https://www.youtube.com/watch?v=QKksQQ09SPw)

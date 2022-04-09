@@ -1,0 +1,45 @@
+baseURL = 'http://dbradf.github.io/'
+languageCode = 'en-us'
+title = 'The Blog of David Bradford'
+author = "David Bradford"
+description = "My blog"
+theme = "anatole"
+
+pygmentsUseClasses = true   
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+
+[params]
+contentratio = 0.75
+profilePicture = "images/profile.jpeg"
+copyright = "2013-{{ YEAR }}"
+enableMediumZoom = false
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/dbradf"
+
+[[params.socialIcons]]
+icon = "fab fa-github"
+title = "Github"
+url = "https://www.github.com/dbradf"
+
+[menu]
+[[menu.main]]
+name = "Home"
+identifier = "home"
+weight = 100
+url = "/"
+
+[[menu.main]]
+name = "Resume"
+weight = 200
+identifier = "resume"
+url = "/resume/"
+
+[[menu.main]]
+name = "About"
+weight = 300
+identifier = "about"
+url = "/about/"
