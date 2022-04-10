@@ -11,6 +11,10 @@ jobs:
     steps:
     - uses: actions/checkout@v1
 
+    - name: Update submodules
+      run: |
+        git submodule update
+
     - name: Build docs
       run: |
         wget -q https://github.com/gohugoio/hugo/releases/download/v0.92.1/hugo_0.92.1_Linux-64bit.tar.gz
