@@ -6,7 +6,7 @@ date: 2022-04-10
 ![Management Books](/images/manager_books.jpg)
 
 After being a manager for a few years, I've done well enough to have a few of the engineers I've
-managed because managers themselves. While I am moving back to an individual contributor role, I
+managed become managers themselves. While I am moving back to an individual contributor role, I
 have spent a lot of time geeking out about management and it seems I have accumulated a good bit
 of knowledge.
 
@@ -103,8 +103,8 @@ solve more complex challenges.
 
 This [book](https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756) was given
 to all the managers at the first company I managed at. It provides 5 key components that teams need
-in order to be successful. While I'm not a fan of management books that use a narrative to
-communicate their message, there is some good information here.
+in order to be successful. This is another narrative style books, which I tend not to like, but
+there is some good information here.
 
 ## Conclusion
 
