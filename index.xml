@@ -13,7 +13,9 @@
       <pubDate>Sun, 22 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2020-03-22-required-reading-corona-virus/</guid>
-      <description>I haven&amp;rsquo;t posted much recently, but the corona virus seems like a big deal. It reminds me of The Plague by Albert Camus. I highly recommend it. I&amp;rsquo;m starting to read it again.</description>
+      
+        <description>I haven&amp;rsquo;t posted much recently, but the corona virus seems like a big deal. It reminds me of The Plague by Albert Camus. I highly recommend it. I&amp;rsquo;m starting to read it again.</description>
+      
     </item>
     
     <item>
@@ -22,7 +24,9 @@
       <pubDate>Wed, 07 Sep 2016 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2016-09-07-microservices-with-quality/</guid>
-      <description>Presentation from Austin Microservices Meetup Group about building Microservices with Quality:</description>
+      
+        <description>Presentation from Austin Microservices Meetup Group about building Microservices with Quality:</description>
+      
     </item>
     
     <item>
@@ -31,8 +35,10 @@
       <pubDate>Tue, 18 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2014-03-18-lindyfest-invitational-balboa-j-j/</guid>
-      <description>I was invited to take part in the Invitational Balboa Jack and Jill at Lindyfest this year. I was paired with the fabulous Teni Lopez-Cardenas.
+      
+        <description>I was invited to take part in the Invitational Balboa Jack and Jill at Lindyfest this year. I was paired with the fabulous Teni Lopez-Cardenas.
 Here is the video:</description>
+      
     </item>
     
     <item>
@@ -41,8 +47,10 @@ Here is the video:</description>
       <pubDate>Fri, 28 Feb 2014 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2014-02-28-rmbb-strictly/</guid>
-      <description>At Rocky Mountain Balboa Blowout this year, I completed with the amazing Deb Eason in the Open Strictly. We managed to get 1st place.
+      
+        <description>At Rocky Mountain Balboa Blowout this year, I completed with the amazing Deb Eason in the Open Strictly. We managed to get 1st place.
 Here is the video:</description>
+      
     </item>
     
     <item>
@@ -51,7 +59,9 @@ Here is the video:</description>
       <pubDate>Thu, 08 Aug 2013 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2013-08-08-jenkins-ldap-fix/</guid>
-      <description>I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for &amp;ldquo;jenkins ldap slow&amp;rdquo; demonstrates.</description>
+      
+        <description>I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for &amp;ldquo;jenkins ldap slow&amp;rdquo; demonstrates.</description>
+      
     </item>
     
     <item>
@@ -60,9 +70,11 @@ Here is the video:</description>
       <pubDate>Fri, 31 May 2013 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2013-05-31-the-git-staging-area/</guid>
-      <description>Git encourages users to think about what they are committing and one of the ways that it does this is with the &amp;ldquo;staging area.&amp;rdquo;
+      
+        <description>Git encourages users to think about what they are committing and one of the ways that it does this is with the &amp;ldquo;staging area.&amp;rdquo;
 Staging changes allows you to mark what changes should be included in the next commit. If no changes are staged, by default git commit won&amp;rsquo;t do anything.
 git status The &amp;lsquo;git status&amp;rsquo; command can be used to show the contents of the staging area. There are three areas where a file may show up in git status:</description>
+      
     </item>
     
     <item>
@@ -71,11 +83,13 @@ git status The &amp;lsquo;git status&amp;rsquo; command can be used to show the 
       <pubDate>Thu, 09 May 2013 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/posts/2013-05-09-using-git-aliases/</guid>
-      <description>Git aliases provide a way to create shortcuts for complex git commands.
+      
+        <description>Git aliases provide a way to create shortcuts for complex git commands.
 To create a git alias:
  Open your ~/.gitconfig file Find or Add the [alias] section of the file. Add the aliases you would like to use.  Aliases are added in the following form:
  alias_name = git command to be run
  After adding an alias, it can be executed using the git command, &amp;lsquo;git alias_name&amp;rsquo;</description>
+      
     </item>
     
     <item>
@@ -84,8 +98,10 @@ To create a git alias:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/about/</guid>
-      <description>Professional I&amp;rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.
+      
+        <description>Professional I&amp;rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.
 Disclaimer The opinions here are my own and not the views of my employer.</description>
+      
     </item>
     
     <item>
@@ -94,9 +110,11 @@ Disclaimer The opinions here are my own and not the views of my employer.</descr
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://dbradf.github.io/resume/</guid>
-      <description>David Bradford  dbradf@gmail.com http://www.linkedin.com/in/dbradf  Technical Summary  Languages: Python, Typescript, Javascript Tools: Git, MongoDB, Jira Patents: Bradford, David, et al. 2013. Recoverability While Adding Storage To a Redirect-On-Write Storage Pool. U.S. Patent 8,402,230, filed September 10, 2010, and issued March 19, 2013.  Professional Experience Staff Software Engineer, MongoDB April 2022 - present
+      
+        <description>David Bradford  dbradf@gmail.com http://www.linkedin.com/in/dbradf  Technical Summary  Languages: Python, Typescript, Javascript Tools: Git, MongoDB, Jira Patents: Bradford, David, et al. 2013. Recoverability While Adding Storage To a Redirect-On-Write Storage Pool. U.S. Patent 8,402,230, filed September 10, 2010, and issued March 19, 2013.  Professional Experience Staff Software Engineer, MongoDB April 2022 - present
 Lead Engineer, MongoDB February 2019 - April 2022
 Senior Software Engineer, MongoDB February 2018 - February 2019</description>
+      
     </item>
     
   </channel>

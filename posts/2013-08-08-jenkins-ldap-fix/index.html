@@ -8,6 +8,11 @@
   <title>
     
       David Bradford
+        |
+        Getting Jenkins to work with LDAP
+
+
+      
 
 
     
@@ -77,7 +82,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
 
-  <link rel="canonical" href="http://dbradf.github.io/about/" />
+  <link rel="canonical" href="http://dbradf.github.io/posts/2013-08-08-jenkins-ldap-fix/" />
 
   
   
@@ -107,20 +112,18 @@
 
   
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="Professional I&rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.
-Disclaimer The opinions here are my own and not the views of my employer."/>
+<meta name="twitter:title" content="Getting Jenkins to work with LDAP"/>
+<meta name="twitter:description" content="I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for &ldquo;jenkins ldap slow&rdquo; demonstrates."/>
 
 
 
   
-  <meta property="og:title" content="" />
-<meta property="og:description" content="Professional I&rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.
-Disclaimer The opinions here are my own and not the views of my employer." />
+  <meta property="og:title" content="Getting Jenkins to work with LDAP" />
+<meta property="og:description" content="I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for &ldquo;jenkins ldap slow&rdquo; demonstrates." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://dbradf.github.io/about/" /><meta property="article:section" content="" />
-
-<meta property="og:site_name" content="David&#39;s Blog" />
+<meta property="og:url" content="http://dbradf.github.io/posts/2013-08-08-jenkins-ldap-fix/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2013-08-08T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-08-08T00:00:00+00:00" /><meta property="og:site_name" content="David&#39;s Blog" />
 
 
 
@@ -133,13 +136,13 @@ Disclaimer The opinions here are my own and not the views of my employer." />
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "articleSection": "",
-        "name": "",
-        "headline": "",
+        "articleSection": "posts",
+        "name": "Getting Jenkins to work with LDAP",
+        "headline": "Getting Jenkins to work with LDAP",
         "alternativeHeadline": "",
         "description": "
       
-        Professional I\u0026rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.\nDisclaimer The opinions here are my own and not the views of my employer.
+        I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for \u0026ldquo;jenkins ldap slow\u0026rdquo; demonstrates.
 
 
       
@@ -150,7 +153,7 @@ Disclaimer The opinions here are my own and not the views of my employer." />
         "isFamilyFriendly": "true",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/dbradf.github.io\/about\/"
+            "@id": "http:\/\/dbradf.github.io\/posts\/2013-08-08-jenkins-ldap-fix\/"
         },
         "author" : {
             "@type": "Person",
@@ -168,10 +171,10 @@ Disclaimer The opinions here are my own and not the views of my employer." />
             "@type": "Person",
             "name": "David Bradford"
         },
-        "copyrightYear" : "0001",
-        "dateCreated": "0001-01-01T00:00:00.00Z",
-        "datePublished": "0001-01-01T00:00:00.00Z",
-        "dateModified": "0001-01-01T00:00:00.00Z",
+        "copyrightYear" : "2013",
+        "dateCreated": "2013-08-08T00:00:00.00Z",
+        "datePublished": "2013-08-08T00:00:00.00Z",
+        "dateModified": "2013-08-08T00:00:00.00Z",
         "publisher":{
             "@type":"Organization",
             "name": "David Bradford",
@@ -188,8 +191,8 @@ Disclaimer The opinions here are my own and not the views of my employer." />
       ]
 
     ,
-        "url" : "http:\/\/dbradf.github.io\/about\/",
-        "wordCount" : "28",
+        "url" : "http:\/\/dbradf.github.io\/posts\/2013-08-08-jenkins-ldap-fix\/",
+        "wordCount" : "279",
         "genre" : [ ],
         "keywords" : [ ]
     }
@@ -309,9 +312,6 @@ Disclaimer The opinions here are my own and not the views of my employer." />
         <li class="nav__list-item">
           <a
             
-              class="nav__link--active"
-
-            
             href="/about/"
             
             title=""
@@ -345,11 +345,22 @@ Disclaimer The opinions here are my own and not the views of my employer." />
   >
     
     <div class="post__content">
-      <h1></h1>
-      <h2 id="professional">Professional</h2>
-<p>I&rsquo;m a Staff Engineer at MongoDB. I work on internal developer productivity tools.</p>
-<h3 id="disclaimer">Disclaimer</h3>
-<p>The opinions here are my own and not the views of my employer.</p>
+      <h1>Getting Jenkins to Work With LDAP</h1>
+      <p>I sent up a jenkins server at work to help automate my teams builds and perform some basic testing on every build. One of the requirements for using it is that it must be secured. At work, we have an ldap server, which I previously used to secure our gerrit setup. Setting up jenkins to work well with the ldap server was a little for complicated. As a quick google search for &ldquo;jenkins ldap slow&rdquo; demonstrates.</p>
+<p>The problem is with jenkins configured to query our ldap server, it was taking several minutes to login. Which was long enough that I would start to work on something else, forget about the login for a while, and then come back after my login session had expired and have to start the login process again.</p>
+<p>After much searching and trial and error. Here are the setting I had to use to get rid of the login delay.</p>
+<p>Under &ldquo;Manage Jenkins&rdquo; =&gt; &ldquo;Configure System&rdquo; =&gt; &ldquo;Access Control&rdquo; =&gt; &ldquo;Security Realm&rdquo; =&gt; &ldquo;LDAP&rdquo;</p>
+<ul>
+<li>Server = address of the ldap server to query.</li>
+<li>root DN = <em>blank</em></li>
+<li>Allow blank rootDN = <strong>TRUE</strong></li>
+<li>User search base = <em>blank</em></li>
+<li>User search filter = <strong>uid={0}</strong></li>
+<li>Group search base = <em>blank</em></li>
+<li>Group search filter = <em>blank</em></li>
+<li>Group membership filter = <strong>(member={0})</strong></li>
+</ul>
+<p>The <!-- raw HTML omitted -->LDAP Plugin wiki page<!-- raw HTML omitted --> contains more information about all the setting. However, not knowing much about LDAP, a lot of it was not helpful to me. Although one cool thing I discovered while investigating this, was the &ldquo;Script Console.&rdquo; This is a page under the &ldquo;Manage Jenkins&rdquo; section that allows you to run scripts against the running jenkins instance. It is kind of like a primative jenkins REPL.</p>
 </div>
     <div class="post__footer">
       
